@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: `Ritvik Sharma Website`,
+    title: `Ritvik Sharma\'s Website`,
     description: `My Portfolio`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Ritvik Sharma Website',
+        name: 'Ritvik Sharma\'s Website',
         short_name: 'RitvikSharma',
         start_url: '/',
         background_color: config.colors.darkNavy,
