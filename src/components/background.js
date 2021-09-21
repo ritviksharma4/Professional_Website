@@ -16,9 +16,9 @@ const FullBackground = ({ className, children }) => {
   const { desktop } = useStaticQuery(
     graphql`
       query {
-        desktop: file(relativePath: { eq: "matrix-background-transparent.png" }) {
+        desktop: file(relativePath: { eq: "matrix-background-1.png" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160) {
+            fluid(quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -51,10 +51,11 @@ const FullBackground = ({ className, children }) => {
 
 const StyledFullBackground = styled(FullBackground)`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.2;
 `
 
 export default StyledFullBackground

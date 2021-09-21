@@ -8,7 +8,6 @@ import sr from '@utils/sr';
 import { Layout } from '@components';
 import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
-import StyledFullBackground from '../components/background';
 
 const StyledTableContainer = styled.div`
   margin: 100px -20px;

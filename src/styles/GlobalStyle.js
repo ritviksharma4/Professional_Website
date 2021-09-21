@@ -168,20 +168,20 @@ const GlobalStyle = createGlobalStyle`
     white-space: nowrap;
 
     &:before {
-      // position: relative;
-      // bottom: 4px;
+      position: relative;
+      bottom: 4px;
       // counter-increment: section;
       // content: '0' counter(section) '.';
-      // margin-right: 10px;
-      // color: var(--green);
-      // font-family: var(--font-mono);
-      // font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
-      // font-weight: 400;
+      margin-right: 10px;
+      color: var(--green);
+      font-family: var(--font-mono);
+      font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+      font-weight: 400;
 
-      // @media (max-width: 480px) {
-      //   margin-bottom: -3px;
-      //   margin-right: 5px;
-      // }
+      @media (max-width: 480px) {
+        margin-bottom: -3px;
+        margin-right: 5px;
+      }
     }
 
     &:after {

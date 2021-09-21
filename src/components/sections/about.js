@@ -136,7 +136,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Ritvik Sharma and this is my first website.
+              Hello! My name is Ritvik Sharma and welcome to My Portfolio.
             </p>
 
             <p>
