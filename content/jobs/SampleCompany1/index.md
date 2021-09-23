@@ -7,6 +7,6 @@ range: 'July - December 2017'
 url: ''
 ---
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

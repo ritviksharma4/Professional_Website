@@ -19,7 +19,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0px 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -38,6 +38,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
+    font-size: var(--fz-s);
     max-width: 540px;
   }
 
@@ -142,12 +143,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Ritvik Sharma.</h2>;
-  const three = <h3 className="big-heading">I build stuff for fun :D</h3>;
+  const three = <h3 className="small-heading">Be You.&nbsp;&nbsp;&nbsp;Do You.&nbsp;&nbsp;&nbsp;For You.</h3>;
+
   const four = (
     <>
       <p>
-        I’m a student aspiring to be a Data Scientist and Full Stack Developer.
-        I love to fiddle with technology I never heard of before and build things that are intriguing.
+        I’m aspiring to be a Data Scientist who can be the great growling engine behind the changes in the world.
+      </p>
+      <p>
+        I love to fiddle with technology I have never heard of before and build things that are intriguing.
       </p>
     </>
   );

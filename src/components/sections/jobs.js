@@ -77,7 +77,7 @@ const StyledTabButton = styled.button`
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
   font-family: var(--font-mono);
-  font-size: var(--fz-xs);
+  font-size: 15px;
   text-align: left;
   white-space: nowrap;
 

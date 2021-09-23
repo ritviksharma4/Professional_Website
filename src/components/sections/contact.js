@@ -62,9 +62,10 @@ const Contact = () => {
       <p>
       Since I began my professional journey I’ve been lucky to have had the opportunity to 
       collaborate on some exciting solo and collaborative projects. I take pride in all that 
-      I do and in the long-term relationships I’ve fostered in the process. I firmly believe 
-      that hard work eventually pays off, and I know that each day brings me closer to reaching 
-      my goals. Explore my portfolio, and feel free to get in touch with any questions.
+      I do and in the long-term relationships I’ve fostered in the process.
+      </p>
+      <p>
+      Explore my portfolio, and feel free to get in touch with any questions.
       </p>
 
     </StyledContactSection>

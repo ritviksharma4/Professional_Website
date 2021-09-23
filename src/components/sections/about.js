@@ -7,11 +7,10 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-gap: 50px;
+    // grid-gap: 100px;
 
     @media (max-width: 768px) {
       display: block;
@@ -33,22 +32,22 @@ const StyledText = styled.div`
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: 15px;
 
       &:before {
         content: '▹';
         position: absolute;
         left: 0;
         color: var(--green);
-        font-size: var(--fz-sm);
-        line-height: 12px;
+        font-size: 17px;
+        line-height: 16px;
       }
     }
   }
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 250px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
@@ -131,16 +130,14 @@ const About = () => {
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
-
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Ritvik Sharma and welcome to My Portfolio.
-            </p>
-
-            <p>
               I am an under-grad with great passion for my work.
+            </p>
+            <p>
+              On my Website, you will find the list of projects that I have done.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -150,13 +147,12 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-
         <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/WebPic.png"
-              width={500}
+              src="../../images/Mountain_Climb_2.png"
+              width={400}
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt = "Headshot"
