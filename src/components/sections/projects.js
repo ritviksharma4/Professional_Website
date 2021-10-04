@@ -181,6 +181,7 @@ const Projects = () => {
               tech
               github
               external
+              subdomain
             }
             html
           }
@@ -212,7 +213,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech, subdomain } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -236,12 +237,12 @@ const Projects = () => {
                   rel="noreferrer">
                   <Icon name="External" />
                 </a>
-              )}
+              )}              
             </div>
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
+            <a href={subdomain} target="_blank" rel="noreferrer">
               {title}
             </a>
           </h3>

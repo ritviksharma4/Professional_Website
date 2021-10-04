@@ -173,8 +173,8 @@ const ArchivePage = ({ location, data }) => {
                   const {
                     date,
                     github,
+                    subdomain,
                     external,
-                    project_webpage,
                     title,
                     tech,
                     company,
@@ -183,7 +183,7 @@ const ArchivePage = ({ location, data }) => {
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
 
-                      <td className="title">{title}</td>
+                      <td className="title"><a href={subdomain}>{title}</a></td>
 
                       <td className="company hide-on-mobile">
                         {company ? <span>{company}</span> : <span>—</span>}
@@ -202,21 +202,18 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="links">
                         <div>
+                        {github && (
+                            <a href={github} aria-label="GitHub Link">
+                              <Icon name="GitHub" />
+                            </a>
+                          )}
+                          
                           {external && (
                             <a href={external} aria-label="External Link">
                               <Icon name="External" />
                             </a>
                           )}
-                          {github && (
-                            <a href={github} aria-label="GitHub Link">
-                              <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {project_webpage && (
-                            <a href={project_webpage} aria-label="Project Website">
-                              <Icon name="ProjectWebsite" />
-                            </a>
-                          )}
+                          
                         </div>
                       </td>
                     </tr>
@@ -249,8 +246,8 @@ export const pageQuery = graphql`
             title
             tech
             github
+            subdomain
             external
-            project_webpage
             company
           }
           html

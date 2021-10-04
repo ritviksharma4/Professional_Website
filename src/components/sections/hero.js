@@ -143,15 +143,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Ritvik Sharma.</h2>;
-  const three = <h3 className="small-heading">Be You.&nbsp;&nbsp;&nbsp;Do You.&nbsp;&nbsp;&nbsp;For You.</h3>;
+  const three = <h3 className="small-heading">I build stuff for fun :D</h3>;
 
   const four = (
     <>
       <p>
-        I’m aspiring to be a Data Scientist who can be the great growling engine behind the changes in the world.
+        I’m aspiring to become a Data Scientist who will be a growling engine behind the changes in the world.
       </p>
       <p>
-        I love to fiddle with technology I have never heard of before and build things that are intriguing.
+        I love to fiddle with technology which I have never heard of before and build things that are intriguing.
       </p>
     </>
   );

@@ -2,8 +2,8 @@
 date: '2021-09-05'
 title: 'HyperSafety'
 github: 'https://github.com/ritviksharma4/HyperSafety_Frontend'
-external: 'https://medium.com/me/stories/public'
-project_webpage: 'https://ritvik-sharma.com/'
+external: ''
+subdomain: 'https://hypersafety.ritvik-sharma.com/'
 tech:
   - NLP
   - Python

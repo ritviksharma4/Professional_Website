@@ -3,7 +3,8 @@ date: '2'
 title: 'HyperSafety'
 cover: './HyperSafety.png'
 github: 'https://github.com/ritviksharma4/HyperSafety_Frontend'
-external: 'https://github.com/ritviksharma4/HyperSafety_Frontend' # MEDIUM.COM
+external: '' # MEDIUM.COM
+subdomain: 'https://hypersafety.ritvik-sharma.com/'
 tech:
   - ML Mask-Detection
   - ML Face Recognition

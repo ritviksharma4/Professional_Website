@@ -2,8 +2,9 @@
 date: '1'
 title: 'Mercury - Food Order Processing via Chatbot'
 cover: './Mercury.png'
-github: 'https://github.com/ritviksharma4/ChatBotUI'
-external: 'https://github.com/ritviksharma4/ChatBotUI/'
+github: 'https://github.com/ritviksharma4/Mercury'
+subdomain: 'https://mercury.ritvik-sharma.com/'
+external: 'https://medium.com/@ritviksharma4/mercury-a-chat-bot-for-food-order-processing-using-albert-crf-4f644cc6c608'
 tech:
   - gRPC Python + Dart
   - NLP, ALBERT

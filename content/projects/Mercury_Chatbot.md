@@ -2,8 +2,8 @@
 date: '2020-08-09'
 title: 'Mercury ChatBot'
 github: 'https://github.com/ritviksharma4/Mercury'
-external: 'https://medium.com/me/stories/public'
-project_webpage: 'https://ritvik-sharma.com/'
+subdomain: 'https://mercury.ritvik-sharma.com/'
+external: 'https://medium.com/@ritviksharma4/mercury-a-chat-bot-for-food-order-processing-using-albert-crf-4f644cc6c608'
 tech:
   - NLP
   - ALBERT + CRF
