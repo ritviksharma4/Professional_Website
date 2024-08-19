@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Mercury - Food Order Processing via Chatbot'
 cover: './Mercury.png'
 github: 'https://github.com/ritviksharma4/Mercury'

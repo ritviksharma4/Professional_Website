@@ -47,7 +47,7 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 250px;
+  max-width: 300px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'NodeJS + ExpressJS', 'C/C++', 'Java', 'gRPC', 'Flutter', 'Machine Learning', 'NLP', 'OpenCV', 'MySQL DB'];
+  const skills = ['AWS Route 53, AWS CloudFront', 'AWS ECS, AWS EC2', 'AWS ApiGateway, AWS Lambda', 'AWS StepFunctions', 'Python', 'NodeJS + ExpressJS', 'C/C++', 'AWS DynamoDB', 'gRPC', 'Flutter', 'AI-ML', 'NLP + BERT + CRF'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,7 +134,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am an under-grad with great passion for my work.
+              I am a <b>University Rank #2</b> holder from SRM University with B.Tech in CSC-AIML and an aspiring Data Scientist with great passion for my work.
             </p>
             <p>
               On my Website, you will find the list of projects that I have done.

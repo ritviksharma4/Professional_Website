@@ -7,6 +7,7 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.12.0",
+    "caniuse-lite": "^1.0.30001431",
     "gatsby": "^3.14.1",
     "gatsby-background-image": "^1.5.3",
     "gatsby-core-utils": "^2.13.0",
