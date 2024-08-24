@@ -2,7 +2,7 @@
 date: '1'
 title: 'Barclays Cloud Platform Launch'
 cover: './ArrowCard.png'
-external: '' # MEDIUM.COM
+external: 'https://github.com/ritviksharma4/My-Certificates/blob/main/My%20Certificates/ArrowCard.png' 
 github: 
 tech:
   - AWS ECS
