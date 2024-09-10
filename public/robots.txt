@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gatsbystarterdefaultsource.gatsbyjs.io/sitemap/sitemap-index.xml
+Sitemap: https://gatsbystarterdefaultsource.gatsbyjs.io/sitemap-index.xml
 Host: https://gatsbystarterdefaultsource.gatsbyjs.io

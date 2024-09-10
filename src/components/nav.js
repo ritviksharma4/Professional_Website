@@ -171,7 +171,7 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/RitvikSharma_Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a className="resume-button" href="https://resume.ritvik-sharma.com/" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );
