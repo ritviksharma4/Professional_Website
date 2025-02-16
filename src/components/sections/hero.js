@@ -148,7 +148,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m aspiring to become a Data Scientist who will be a growling engine behind the changes in the world.
+        I’m aspiring to become a Tech Lead who will be a growling engine behind the changes in the world.
       </p>
       <p>
         I love to fiddle with technology which I have never heard of before and build things that are intriguing.
@@ -161,7 +161,7 @@ const Hero = () => {
           <div className="wrapper" >
             <StaticImage
               className="img"
-              src="../../images/WebPic.png"
+              src="../../images/WebPic.JPG"
               width={500}
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
