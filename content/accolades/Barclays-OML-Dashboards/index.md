@@ -2,7 +2,7 @@
 date: '3'
 title: 'Dashboards for Early Go-Live Days'
 cover: './OpenMarketLaunchDashboards.png'
-external: 'https://github.com/ritviksharma4/My-Certificates/blob/main/My%20Certificates/ArrowCard.png' 
+external: 'https://github.com/ritviksharma4/My-Certificates/blob/main/Workplace%20Accolades/Barclays/OpenMarketLaunchDashboards.png' 
 github: 
 tech:
   - AWS ApiGateway
