@@ -1,6 +1,6 @@
 ---
 date: '2023-07-10'
-title: 'Graduate Analyst'
+title: 'Software Engineer (SDE-II) & DevOps'
 company: 'Barclays'
 location: 'Pune, Maharashtra'
 range: 'July 2023 - Present'
