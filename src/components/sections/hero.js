@@ -73,11 +73,11 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: none;
 
     &:hover,
     &:focus {
-      background: transparent;
+      background: var(--green);
       outline: 0;
 
       &:after {
@@ -87,15 +87,15 @@ const StyledPic = styled.div`
 
       .img {
         filter: none;
-        mix-blend-mode: normal;
+        mix-blend-mode: multiply;
       }
     }
 
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: none;
       transition: var(--transition);
     }
 
@@ -111,16 +111,16 @@ const StyledPic = styled.div`
     }
 
     &:before {
-      top: 0;
-      left: 0;
+      top: 20px;
+      left: 20px0;
       background-color: var(--navy);
       mix-blend-mode: screen;
     }
 
     &:after {
       border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
+      top: 0;
+      left: 0;
       z-index: -1;
     }
   }
@@ -148,7 +148,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m aspiring to become a Tech Lead who will be a growling engine behind the changes in the world.
+        I’m aspiring to become a Leader who will be a growling engine behind the changes in the world.
       </p>
       <p>
         I love to fiddle with technology which I have never heard of before and build things that are intriguing.
